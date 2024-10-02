@@ -13,7 +13,7 @@ const calcularResultado = computed(() => {
   const { numero1, numero2, operacao } = estado;
   switch (operacao) {
     case 'soma':
-      return numero1 + numero2;
+      return numero1 + numero2; 
     case 'subtracao':
       return numero1 - numero2;
     case 'multiplicacao':
